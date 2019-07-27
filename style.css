@@ -1,17 +1,17 @@
-body {
-    font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-
+h1 {
+    background-color: #ebebeb;
     color: #777;
-    background-color: #777;
 
-    width: 960px;
+    width: 90%;
+    
+    text-align: center;
 
-    margin: auto;
+    padding: 10px;
+    margin: 35px 10px 10px 15px;
     
 }
 
-header, nav, section, aside, footer 
+nav, header, footer, section, aside
     {
         background-color: #ebebeb;
         text-align: center;
@@ -33,7 +33,7 @@ section {
 
 aside {
     height: 275px;
-    width: 50%;
+    width: 40%;
 
     float: right;
 
@@ -49,21 +49,18 @@ article {
     height: 185px;
 }
 
+body {
+    font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
 
-
-h1 {
-    background-color: #ebebeb;
     color: #777;
+    background-color: #777;
 
-    width: 90%;
-    
-    text-align: center;
+    width: 960px;
 
-    padding: 10px;
-    margin: 35px 10px 10px 15px;
+    margin: auto;
     
 }
-
 
 p {
     background-color: #ebebeb;
@@ -79,9 +76,9 @@ p {
 }
 
 .clearfix {
-    clear: bot;
+    clear: both;
 }
 
 footer {
-    margin-top: 12px;
+    margin-top: 10px;
 }
