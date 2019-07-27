@@ -6,7 +6,11 @@ h1 {
     
     text-align: center;
 
-    padding: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+
     margin: 35px 10px 10px 15px;
     
 }
@@ -64,8 +68,8 @@ aside {
     
     padding-top: 10px;
     padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
     
     
 
@@ -80,8 +84,17 @@ aside {
 
 }
 
-heading {
-    overflow: hidden;
+.heading {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
 }
 
 article {
@@ -98,7 +111,7 @@ article {
     padding-bottom: 0px;
     padding-left: 5px;
     margin: 0px 0px 0px 0px;
-    height: 185px;
+    height:215px;
 
     /*THIS stretched the blue box horizontally to fill the entire width of the above seciton*/
     overflow: none;
@@ -126,10 +139,26 @@ body {
 
     text-align: center;
 
-    padding: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
 
     /*Last section (left) needs to match H1*/
     margin: auto;
+}
+
+.section {
+    margin: auto;
+
+    padding-top: 20px;
+}
+
+.aside {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 p {
