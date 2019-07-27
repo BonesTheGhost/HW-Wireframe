@@ -11,42 +11,91 @@ h1 {
     
 }
 
-nav, header, footer, section, aside
+nav, header, footer
     {
         background-color: #ebebeb;
         text-align: center;
-
-        padding: 10px;
+        
+        
+        padding: 25px;
         margin: 10px;
+        
 
         display: block;
+        
     }
 
 section {
     width: 495px;
     height: 275px;
 
+    text-align: center;
+
+    background-color: red;
+
     float: left;
     display: block;
-    
+
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+    margin: 10px;
+
+    overflow: none;
 }
 
 aside {
     height: 275px;
     width: 40%;
 
+    text-align: center;
+
     float: right;
 
-    overflow: hidden;
+    overflow: none;
+    
     display: block;
+    
+    
+    
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    
+
+    /*This moves the content 'in line', AWAY from the right margin and down from the nav-bar margin*/
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+
+}
+
+heading {
+    /*PLACEHOLDER*/
 }
 
 article {
     color: #ebebeb;
-    background-color: #777;
+    /*background-color: #777;*/
 
-    padding: 10px;
+    /*TEST COLOR*/
+    background-color: blue;
+
+    text-align: center;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    margin: 0px 0px 0px 0px;
     height: 185px;
+
+    /*THIS stretched the blue box horizontally to fill the entire width of the above seciton*/
+    overflow: none;
 }
 
 body {
@@ -58,8 +107,26 @@ body {
 
     width: 960px;
 
+    /* This centers ALL of the content ion the webpage */
     margin: auto;
     
+}
+
+.embeddedP {
+    background-color: #ebebeb;
+    color: #777;
+
+    width: 90%;
+
+    text-align: center;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+
+    /*Last section (left) needs to match H1*/
+    margin: 0px 0px 0px 15px;
 }
 
 p {
@@ -70,9 +137,12 @@ p {
 
     text-align: center;
 
-    padding: 10px;
-    margin: 10px 10px 10px 15px;
-    
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin: 0px 0px 0px 0px;
+
 }
 
 .clearfix {
