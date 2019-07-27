@@ -36,10 +36,10 @@ section {
     float: left;
     display: block;
 
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 
     margin: 10px;
 
@@ -57,6 +57,8 @@ aside {
     overflow: none;
     
     display: block;
+
+    background-color: red;
     
     
     
@@ -65,17 +67,21 @@ aside {
     padding-bottom: 0px;
     padding-left: 0px;
     
+    
 
     /*This moves the content 'in line', AWAY from the right margin and down from the nav-bar margin*/
-    margin-top: 0px;
-    margin-right: 0px;
+    
+    margin-top: 10px;
+    margin-right: 10px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
+    
+    
 
 }
 
 heading {
-    /*PLACEHOLDER*/
+    overflow: hidden;
 }
 
 article {
@@ -120,13 +126,10 @@ body {
 
     text-align: center;
 
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 0px;
-    padding-left: 10px;
+    padding: 10px;
 
     /*Last section (left) needs to match H1*/
-    margin: 0px 0px 0px 15px;
+    margin: auto;
 }
 
 p {
@@ -137,11 +140,14 @@ p {
 
     text-align: center;
 
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    margin: 0px 0px 0px 0px;
+    /* Trying to stretch the lines out to fill the extra 'width'
+    align-content: stretch;
+    */
+
+    padding: 10px;
+    margin: auto;
+
+    display: block;
 
 }
 
